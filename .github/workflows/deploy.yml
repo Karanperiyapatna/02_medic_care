@@ -22,7 +22,7 @@ jobs:
             cd /home/ubuntu/myciapp
 
             echo ">> Mark repo as safe to fix dubious ownership issue"
-            git config --global --add safe.directory /home/ubuntu/myciapp
+            git config --global --add safe.directory /home/ubuntu/
 
             echo ">> Fetch latest code from origin"
             git fetch origin
