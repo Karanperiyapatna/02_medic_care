@@ -1,0 +1,5 @@
+
+Added the app.py file to run the website using Flask Application. Flask is used to avoid other software
+Changed the path in the app.py to read the html static website
+
+Cmd to run the website: python app.py
