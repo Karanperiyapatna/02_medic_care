@@ -31,4 +31,10 @@ jobs:
             git reset --hard origin/main
 
             echo ">> Reload systemd daemon to avoid warning"
+            sudo systemctl daemon-reload
+
+            echo ">> Restart application service"
+            sudo systemctl restart 02_medic_care
+
+            echo "✅ Deployment complete!"
             
