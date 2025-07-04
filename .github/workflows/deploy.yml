@@ -22,7 +22,7 @@ jobs:
             cd /home/ubuntu/myciapp
 
             echo ">> Mark repo as safe to fix dubious ownership issue"
-            git config --global --add safe.directory /home/ubuntu/
+            git config --global --add safe.directory /home/ubuntu/02_medic_care
 
             echo ">> Fetch latest code from origin"
             git fetch origin
@@ -31,4 +31,4 @@ jobs:
             git reset --hard origin/main
 
             echo ">> Reload systemd daemon to avoid warning"
-            sudo systemctl daemon-reload
+            
